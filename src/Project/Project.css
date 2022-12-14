@@ -1,0 +1,86 @@
+.box{
+  margin:25px;
+  margin-bottom: 25px;
+  width: 640px;
+  height:360px;
+  background:#fff;
+  border: solid black;
+  border-color: black;
+  box-shadow: 10px 5px 5px black;
+  text-align: center;
+  float: left;
+  
+}
+
+.card {
+  width: 100%;
+  height: 225px; 
+  margin: 0px; 
+  padding: 0px; 
+  border: none;
+  margin-bottom: 10px;
+  
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+  .btn1 {
+    position: center;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 38.2px;
+    background-color: var(--light-theme);
+    cursor: pointer;
+    color: var(--color);
+    transition: all 0.3s;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 6px 30px -10px rgba(#cccccc, 1);
+    
+  }
+  iframe{
+    height: 100%;
+    width: 100%; 
+    border: none; 
+    vertical-align: middle;
+    
+    }
+
+
+  .btn1:hover {
+    transform: translateX(5px) translateY(-7px);
+  }
+
+  .footer{
+    background-color: rgb(216, 216, 218);
+  }
+ 
+  .btn2 {
+    color: var(--white);
+    border: 2px solid linen;
+    font-size: 12px;
+    background-color: #1f2235;
+  }
+  
+  .btn3 {
+  border-radius: 50px;
+  padding: 14px 0;
+  width: 160px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: "Poppins SemiBold";
+}
+.btn2:hover {
+  color: aliceblue;
+  border: 2px solid #ff5823;
+  background-color: #1f2235;
+}
